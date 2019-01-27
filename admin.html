@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>| PlaneJAYNE|</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        
+        
+    </head>
+    <h1>Admin Page</h1>
+    <body>
+        <div> 
+            <ul>
+                <li> <a class= "active" href= "Index.html">Home</a></li>
+                <li><a href= "Index.html">About</a></li>
+                <li><a href="index.html">Contact</a></li>
+                <li><a href="admin.html">Admin Page</a></li>
+            </ul>
+        </div>
+        
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                        <div class ="form-group">
+                            <label for="FirstName">First Name</label>
+                            <input id = "FirstName" type="text" class="form-control">
+                        </div>
+                        
+                        <div class ="form-group">
+                            <label for="LastName">Last Name</label>
+                            <input id = "LastName" type="text" class="form-control">
+                        </div>
+                        
+                        <div class = "form-group">
+                            <label for="Username">Username</label>
+                            <input id = "Username" type="text" class="form-control">
+                        </div>
+                        
+                        <div class = "form-group">
+                            <label for="Password">Password</label>
+                            <input id = "Password" type="password" class="form-control">
+                        </div>
+                        
+                        <div class = "form-group">
+                            <label for="Email">Email</label>
+                            <input id ="Email" type="text" class="form-control">
+                        </div>
+                        
+                        <div class = "form-group">
+                            <input id ="Active" type="checkbox" > Active
+                        </div>
+                        <div class = "form-group">
+                            <label for="Permissions">Permissions</label>
+                            <select name="Permissions" id="Permissions" class="form-control">
+                                <option value="power">Power User</option>
+                                <option value="basic">Basic User</option>
+                            </select>
+                        </div>
+                        <div class = "form-group">
+                            <button id="submitUser" onclick="addUser()" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                
+                <div class="col-md-12">
+                    <div class ="row">
+                        <table class="table">
+                            <table id="UserTable" class="table"></table>
+                            
+                            
+                            
+                            
+                            
+                        </body>
+                        <script src="main.js"></script>
+                        </html>
+                        
+                        
